@@ -1,0 +1,53 @@
+/* Here goes your CSS */
+body {
+  background-color: #fcfcfc;
+  font-family: arial;
+  font-size: 14px;
+  color: #8b7d7d;
+  line-height: 10px;
+}
+
+h1, h2, h3 {
+  background-color: #ebebeb;
+  color: #586e75;
+  font-size: 18px
+  font-family: Montserrat;
+}
+
+a {
+  color: #586e75;
+  text-decoration: none;
+}
+
+a:hover {
+  color:red;
+  text-decoration: none;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 5px;
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: ;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 0px 20px;
+    padding-left: 0px;
+}
+.text-center {
+    text-align: center;
+}
