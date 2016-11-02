@@ -1,7 +1,7 @@
 /* Here goes your CSS */
 body {
   background-color: #fcfcfc;
-  background-image:url(images/shanghaiback.jpg);
+  background-image:url(https://unsplash.it/1000/1000);
   background-size: cover;
   font-family: arial;
   font-size: 14px;
@@ -9,9 +9,15 @@ body {
   line-height: 120%;
 }
 
-h1, h2, h3 {
+h1, {
   color: #586e75;
   font-size: 16px;
+  font-family: 'Montserrat';
+}
+
+h2, h3 {
+  color: #586e75;
+  font-size: 14px;
   font-family: 'Montserrat';
 }
 
@@ -27,6 +33,10 @@ a {
 a:hover {
   color: grey;
   text-decoration: none;
+}
+
+.fa {
+  font-size: 40px;
 }
 
 .container {
