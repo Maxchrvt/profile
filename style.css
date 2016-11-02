@@ -1,6 +1,8 @@
 /* Here goes your CSS */
 body {
   background-color: #fcfcfc;
+  background-image:url(images/shanghaiback.jpg);
+  background-size: cover;
   font-family: arial;
   font-size: 14px;
   color: #8b7d7d;
@@ -32,6 +34,20 @@ a:hover {
   margin: 0 auto;
 }
 
+.btn-red {
+  background-color: #FF7E6B;
+  color: white;
+  border: 1px solid lightgrey;
+  line-height: 22px;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.btn-red:hover {
+  background-color: #8C5E58;
+  color: white;
+}
+
 .card {
   border-radius: 5px;
   background: white;
@@ -48,6 +64,7 @@ a:hover {
 
 .img-square {
   width: 80px;
+  border-radius: 10px;
 }
 
 .list-inline li {
@@ -57,6 +74,10 @@ a:hover {
 }
 .text-center {
     text-align: center;
+}
+
+tr {
+  margin-bottom: 10px;
 }
 
 li {
